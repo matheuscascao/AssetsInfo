@@ -1,47 +1,48 @@
-#Backend
-/backend/__pycache__/
+#api
+/api/__pycache__/
 *.py[cod]
 *$py.class
 
-/backend/.Python
-/backend/build/
-/backend/develop-eggs/
-/backend/dist/
-/backend/downloads/
-/backend/eggs/
-/backend/.eggs/
-/backend/lib/
-/backend/lib64/
-/backend/parts/
-/backend/sdist/
-/backend/var/
-/backend/wheels/
-/backend/share/python-wheels/
-/backend/*.egg-info/
-/backend/.installed.cfg
-/backend/*.egg
-/backend/MANIFEST
+/api/.Python
+/api/build/
+/api/develop-eggs/
+/api/dist/
+/api/downloads/
+/api/eggs/
+/api/.eggs/
+/api/lib/
+/api/lib64/
+/api/parts/
+/api/sdist/
+/api/var/
+/api/wheels/
+/api/share/python-wheels/
+/api/*.egg-info/
+/api/.installed.cfg
+/api/*.egg
+/api/MANIFEST
 
-/backend/venv
-/backend/.env
+/api/venv
+/api/.env
 
-/frontend/node_modules
-/frontend/.pnp
-/frontend.pnp.js
+/assetsinfo/node_modules
+/assetsinfo/.pnp
+/assetsinfo.pnp.js
 
 
-#Frontend
+#assetsinfo
 
-/frontend/coverage
+/assetsinfo/coverage
 
-/frontend/build
+/assetsinfo/build
 
-/frontend/.DS_Store
-/frontend/.env.local
-/frontend/.env.development.local
-/frontend/.env.test.local
-/frontend/.env.production.local
+/assetsinfo/.DS_Store
+/assetsinfo/.env.local
+/assetsinfo/.env.development.local
+/assetsinfo/.env.test.local
+/assetsinfo/.env.production.local
 
-/frontend/npm-debug.log*
-/frontend/yarn-debug.log*
-/frontend/yarn-error.log*
+/assetsinfo/npm-debug.log*
+/assetsinfo/yarn-debug.log*
+/assetsinfo/yarn-error.log*
+node_modules

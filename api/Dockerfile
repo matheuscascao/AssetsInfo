@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 RUN apt update \
  && apt upgrade -y \
@@ -14,9 +14,9 @@ RUN pip3 install gunicorn uvloop httptools
 
 WORKDIR /app
 
-# COPY requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 
-# RUN pip3 install -r /app/requirements.txt
+RUN pip3 install -r /app/requirements.txt
 
 COPY ./ /app
 

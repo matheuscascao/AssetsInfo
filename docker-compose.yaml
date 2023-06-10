@@ -1,0 +1,11 @@
+services:
+  api:
+    build: ./api
+    container_name: api_assetsinfo
+    ports: 
+      - '8000:80'
+  assetsinfo:
+    build: ./assetsinfo
+    container_name: assetsinfo
+    ports: 
+      - '3000:3000'
